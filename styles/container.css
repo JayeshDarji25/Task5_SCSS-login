@@ -1,0 +1,135 @@
+#container {
+  width: 500px;
+  margin: 100px auto 0px auto;
+  padding: 30px;
+  border-top: 4px solid rgb(136, 227, 254);
+  background-color: white;
+}
+
+#top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: start;
+  font-size: 20px;
+}
+
+#top > h3 {
+  font-size: 28px;
+  left: 0;
+  margin: auto auto;
+}
+
+.radio-group {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: start;
+}
+
+.radio-group > label {
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.radio-group input[type=radio] {
+  -webkit-appearance: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  background-size: 25px;
+  background-image: url(images/radio-button-off.svg);
+}
+
+.radio-group input[type=radio]:checked {
+  background-size: 25px;
+  background-image: url(images/radio-button-on.svg);
+}
+
+label {
+  font-size: 20px;
+}
+
+.small {
+  color: grey;
+  font-size: 18px;
+}
+
+.inp {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid rgb(213, 212, 212);
+  margin-bottom: 60px; /*margin changed to 70*/
+  font-size: 18px;
+  margin-top: 5px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-image: url(images/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: -5px;
+}
+
+.uname {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid rgb(222, 222, 222);
+  font-size: 18px;
+  outline: none;
+}
+
+.forgot {
+  text-align: end;
+  color: green;
+  margin-bottom: 50px;
+  margin-top: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: start;
+}
+
+.remember > label {
+  font-size: 21px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.remember input[type=checkbox] {
+  -webkit-appearance: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  background-image: url(images/checkbox-unchecked.svg);
+}
+
+.remember input[type=checkbox]:checked {
+  background-size: 30px;
+  background-image: url(images/checkbox-checked.svg);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+button {
+  background-color: rgba(58, 189, 84, 0.637);
+  border: none;
+  font-size: 18px;
+  padding: 10px 70px;
+  border-radius: 2px;
+  cursor: pointer;
+}/*# sourceMappingURL=container.css.map */

@@ -1,0 +1,14 @@
+#header {
+  background-image: url("../images//header-background.png");
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 3px solid rgb(136, 178, 245);
+}
+
+#header > img {
+  padding: 15px 30px;
+  margin: auto auto;
+}/*# sourceMappingURL=header.css.map */
